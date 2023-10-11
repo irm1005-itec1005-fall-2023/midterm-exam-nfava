@@ -33,8 +33,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -59,3 +58,59 @@ body {
   max-height: 200px;
   object-fit: cover;
 }
+
+.card-body {
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.product-description {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #666;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discounted-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.original-price {
+  font-size: 16px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
